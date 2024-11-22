@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="61dp"
+        android:layout_height="65dp"
+        android:contentDescription="Close button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="?attr/actionModeCloseDrawable" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="8dp"
+        android:rowCount="3">
+
+        <!-- Brush 1 -->
+        <LinearLayout
+            android:id="@+id/brush_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/bgpaint" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Paint Brush ₹150"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button_brush_1"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:text="Cart" />
+        </LinearLayout>
+
+        <!-- Brush 2 -->
+        <LinearLayout
+            android:id="@+id/brush_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/bgrolling" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Wall Brush ₹200"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button_brush_2"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="Cart" />
+        </LinearLayout>
+
+        <!-- Brush 3 -->
+        <LinearLayout
+            android:id="@+id/brush_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/bgcelling" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Ceiling Brush ₹250"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button_brush_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cart" />
+        </LinearLayout>
+
+        <!-- Brush 4 -->
+        <LinearLayout
+            android:id="@+id/brush_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/bgbase" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Stencil Brush ₹300"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button_brush_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cart" />
+        </LinearLayout>
+
+        <!-- Brush 6 -->
+        <LinearLayout
+            android:id="@+id/brush_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="74dp"
+                android:src="@drawable/bgangle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:text="Angle Brush ₹180"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button_brush_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cart" />
+        </LinearLayout>
+
+    </GridLayout>
+</LinearLayout>
